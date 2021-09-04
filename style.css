@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
 
-
 *,
 *::before,
 *::after {
@@ -10,11 +9,232 @@
   box-sizing: border-box;
 }
 
-body {font-family: 'Roboto', sans-serif;}
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+}
+
+.title{
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #2F3132;
+}
+
+.text{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #2F3132;
+}
+
+.first-page{
+  background: #E0E1E2;
+}
 
 .logo-white{
     display: none;
 }
+
+.logo-black{
+  margin: 25px 123px 94px 122px ;
+}
+
 .items{
     display: none;
+}
+
+.first-page__body{
+  background-image: url(img/MX-Master\ 1.png);
+  background-repeat: no-repeat;
+}
+
+.first-page__text{
+  margin: 274px 59px 40px;
+}
+
+.arrow-link{
+  margin: 40px 168px 48px;
+}
+
+/* .menu__icon span,
+.menu__icon::before,
+.menu__icon::after {
+  left: 375px;
+  position: absolute;
+  height: 4px;
+  width: 30px;
+  transition: all 0.3s ease 0s;
+  background: #2F3132;
+}
+
+.menu__icon::before,
+.menu__icon::after {
+  content: "";
+}
+
+.menu__icon::before{
+  top: 2%;
+}
+.menu__icon::after{
+  bottom: 96%;
+}
+
+.menu__icon span {
+  top: 1%;
+  transform: scale(1) translate(0px, -50%);
+} */
+
+.second-page{
+  background: #EDEDED;
+  height: 547px;
+}
+
+.bluetooth-icon{
+  margin: 42px 178px 27px 179px;
+}
+
+.second-page__text{
+  margin: 20px 33px 31px 34px;;
+}
+
+.box-mouse{
+  background-image: url(img/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.text-large{
+  padding: 0 33px 236px 34px;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 70px;
+  text-transform: uppercase;
+  color: #C4C4C4;
+}
+
+
+.three-page__title{
+  margin: 70px 86px 20px 87px;
+}
+
+.three-page__text{
+  margin: 0 61px 30px 67px;
+}
+
+.three-page__grid{
+ display: flex;
+ justify-content: space-evenly;
+ margin-bottom: 28px;
+}
+
+.grid__row{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 166px;
+  height: 94px;
+  border: 1px solid #000000;
+}
+
+.slider__wood{ 
+  width: 375px;
+}
+
+.slider__title{
+  margin: 27px 33px 20px 34px;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.slider-nav{
+  width: 308px;
+  height: 30.5px;
+  margin: 0 33px 19.5px 34px;
+}
+
+.slider__text{
+  margin: 0 33px 63px 34px;
+}
+
+.four-page{
+  background: #EDEDED;
+}
+
+.four-page__title{
+  padding: 70px 28px 20px 29px;
+}
+
+.four-page__text{
+  margin: 0 33px 36px 34px;
+}
+
+.four-page__box{
+  background-image: url(img/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1.png);
+  background-repeat: no-repeat;
+
+}
+
+.box__list{
+  list-style-type: none;
+  padding: 0 97px 170.5px 54px ;
+}
+
+.box__list li{
+  text-align: left;
+  padding-bottom: 16px;
+}
+
+.five-page__text{
+  margin: 70px 71px 20px 72px;
+}
+
+.five-page__text{
+  margin: 0 33px 35px 34px;
+}
+
+.page-five__img{
+  margin: 0 22px 20px 23px;
+}
+
+.five-page__slider{
+  width: 165px;
+  height: 15px;
+  margin: 0 104px 60px 106px;
+}
+
+.five-page__box{
+  background: #C4C4C4;
+}
+
+.icon-apps{
+  padding: 23px 22px 29px 20px ;
+}
+.box__text{
+  padding: 0 26px 33px 34px;
+  color: #FFFFFF;
+}
+
+.six-page__title{
+ margin: 70px 34px 20px;
+}
+
+.six-page__text{
+  margin: 0 34px 20px;
+}
+
+.footer{
+  height: 75px;
+  background: #2F3132;
+}
+
+.footer__text{
+  padding: 22px 145px 37px;
+  font-size: 7px;
+  line-height: 8px;
+  color: #C7C8C8;
 }

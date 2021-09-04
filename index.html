@@ -6,35 +6,131 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">   
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">   
 </head>
 <body>
-    <section>
+    <section class="first-page">
         <div class="container">
             <header class="header">
                 <img class="logo-black" src="img/Logo_Logitech_dark 1.png" alt="logo">
                 <img class="logo-white" src="img/Logo_Logitech 1.png" alt="logo">
                 <div class="menu__icon">
-                
+                    <span></span>
                 </div>
-                <ul class="items">
-                    <li class="item">БЕЗ ПРОВОДОВ</li>
-                    <li class="item">ЗА ЛЮБЫМ СТОЛОМ</li>
-                    <li class="item">ОДНОВРЕМЕННО С НЕСКОЛЬКИХ УСТРОЙСТВ</li>
-                    <li class="item">С ИНДИВИДУАЛЬНЫМИ НАСТРОЙКАМИ</li>
-                    <li class="item">БЫСТРЕЕ,ЧЕМ КОГДА-ЛИБО</li>
-                    <li class="item">КОМФОРТНО. ЭРГОНОМИЧНО. ИНТУИТИВНО.</li>
-                </ul>
+                <nav class="menu__body">
+                    <ul class="items">
+                        <li class="item">БЕЗ ПРОВОДОВ</li>
+                        <li class="item">ЗА ЛЮБЫМ СТОЛОМ</li>
+                        <li class="item">ОДНОВРЕМЕННО С НЕСКОЛЬКИХ УСТРОЙСТВ</li>
+                        <li class="item">С ИНДИВИДУАЛЬНЫМИ НАСТРОЙКАМИ</li>
+                        <li class="item">БЫСТРЕЕ,ЧЕМ КОГДА-ЛИБО</li>
+                        <li class="item">КОМФОРТНО. ЭРГОНОМИЧНО. ИНТУИТИВНО.</li>
+                    </ul>
+                </nav>             
             </header>
-            <h1 class="title">РАБОТАЙТЕ ПРОДУКТИВНЕЕ</h1>
-            <img src="img/MX-Master 1.png" alt="MX-mouse">
-            <p class="text">Создана для эффективной работы, программирования и творчества</p>
-            <a href="" class="link">
-                <img class="img" src="img/arrow.png" alt="arrow">
-            </a>
+            <div class="first-page__body">
+                <h2 class="title">РАБОТАЙТЕ ПРОДУКТИВНЕЕ</h2>
+                <p class="text first-page__text">Создана для эффективной работы, программирования и творчества</p>
+                <a href="" class="link">
+                    <img class="arrow-link" src="img/arrow.png" alt="arrow">
+                </a>
+            </div>  
         </div>
     </section>
+    <section class="second-page">
+        <div class="container">
+            <img src="img/icon-bluetooth.png" alt="bluetooth" class="bluetooth-icon">
+            <h2 class="title">БЕЗ ПРОВОДОВ</h2>
+            <p class="text second-page__text">Беспроводная мышь MX Master 3 работает без проводов до нескольких месяцев. Вы закроете приоритетные задачи прежде, чем понадобится подзарядка.</p>
+            <div class="box-mouse">
+                <p class="text text-large">70 ДНЕЙ</p>
+            </div>
+        </div>
+    </section>
+    <section class="three-page">
+        <div class="container">
+            <h2 class="title three-page__title">ЗА ЛЮБЫМ СТОЛОМ</h2>
+            <p class="text three-page__text">Исследуйте ландшафты своего дома, не отвлекаясь от работы.
+                MX Master 3 достаточно компактная, чтобы сменить рабочее место и перенестись с ноутбуком на кухню.</p>
+            <div class="three-page__grid">
+                <div class="grid__row">
+                    <h3 class="title">В 5 РАЗ</h3>
+                    <p class="text">точнее предшественников</p>
+                </div>
+                <div class="grid__row">
+                    <h3 class="title">4 000</h3>
+                    <p class="text">точек на дюйм чувствительность датчика</p>
+                </div>
+            </div>
+            <div class="second-page__slider">
+                <img class="slider__wood" src="img/wood.png" alt="wood">
+                <h5 class="title slider__title">Переключите поверхность</h5>
+                <div class="slider-nav">
+                    
+                </div>
+            </div>
+            <p class="text slider__text">Благодаря технологии Logitecch Darkfierd, MX Master 3 работаетна любой поверхности, даже на стекле.</p>
+        </div>
+    </section>
+    <section class="four-page">
+        <div class="container">
+            <h2 class="title four-page__title">ОДНОВРЕМЕННО С НЕСКОЛЬКИХ УСТРОЙСТВ</h2>
+            <p class="text four-page__text">С технологией Flow вы сможете работать одновременно на нескольких компьютерах, мгновенно
+                переключаясь между разными операционными системами — даже между Windows® и macOS.
+                Например, достаточно скопировать текст, изображение или файл на MacBook и переместить его
+                на Windows PC без задержек. <br> <br>               
+                Клавиатура MX Keys отслеживает перемещение курсора мыши MX Master 3, благодаря чему ваш
+                текст появится там, где вы работаете в текущий момент.</p>
+            <div class="four-page__box">
+                <ul class="box__list">
+                    <li class="text">1. Нажмите и удерживайте <br>
+                            папку, чтобы переместить её</li>
+                    <li class="text">2. Перенесите папку на любой
+                            из соседних экранов</li>
+                    <li class="text">3. Да, всё так просто!</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="five-page">
+        <div class="container">
+            <h2 class="title five-page__title">С ИНДИВИДУАЛЬНЫМИ НАСТРОЙКАМИ</h2>
+            <text class="text five-page__text">Мышь MX Master 3 адаптируется под ваши рабочие процессы. Благодаря
+                индивидуальным настройкам, вы сможете настроить кнопки и жесты практически
+                под любое используемое приложение.</text>
+            <img src="img/f370c2e.png" alt="mouse" class="page-five__img">
+            <div class="five-page__slider">
+                
+            </div>
+            <div class="five-page__box">
+                <div class="icon-apps">
+                    <img src="img/icons-apps.png" alt="icon">
+                </div>
+                <p class="text box__text">Начните работать продуктивнее с момента покупки — устройство
+                    предварительно оптимизировано под популярные приложения
+                    на Windows и Mac.</p>
+            </div>
+            
+        </div>
+    </section>
+    <section class="six-page">
+        <div class="container">
+            <h2 class="title six-page__title">КОМФОРТНО.
+                ЭРГОНОМИЧНО. ИНТУИТИВНО.</h2>
+            <p class="text six-page__text">Дизайн мыши MX Master 3 разработан так, чтобы с точностью повторять форму вашей ладони. Но не менее важны колесико прокрутки для большого пальца
+                и расположение кнопок жестов, с которыми вы будете творить уверенно как никогда.</p>
+            <img src="img/image 1.jpg" alt="mouse">
+            <h2 class="title six-page__title">БЫСТРЕЕ, ЧЕМ КОГДА-ЛИБО</h2>
+            <p class="text six-page__text">Компьютерная мышь MX Master 3 предлагает ультимативный механизм прокрутки
+                со скоростью 1000 строк за 1 секунду.
+                С точностью до пикселя. Бесшумно..</p>
+            <img src="img/image 2.jpg" alt="mouse">
+        </div>
+    </section>
+    <footer class="footer">
+        <p class="text footer__text"> Copyright © 2021 Logitech Все права защищены</p>
+    </footer>
 </body>
 </html>
