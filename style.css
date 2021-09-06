@@ -198,7 +198,21 @@ body._lock{
   border: 1px solid #000000;
 }
 
-.slider__wood{ 
+.slider-wrapper{
+  width: 375px;
+  height: 240px;
+  overflow: hidden;
+}
+
+.slider-line{
+  width: 1500px;
+  display: flex;
+  position: relative;
+  left: 0;
+  transition: all ease 1s;
+}
+
+.slider-line img{
   width: 375px;
 }
 
@@ -209,6 +223,9 @@ body._lock{
 }
 
 .slider-nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   width: 308px;
   height: 30.5px;
   margin: 0 33px 19.5px 34px;
