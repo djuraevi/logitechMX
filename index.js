@@ -1,4 +1,4 @@
-// меню бургер
+// menu burger first-page
 
 const menuBurger = document.querySelector('.menu__burger');
 const menuList = document.querySelector('.menu__list');
@@ -12,12 +12,12 @@ if(menuBurger){
 }
 
 if (menuBurger.classList.contains('_active')){
-    document.body.classList.remove('_lock');
-    menuBurger.classList.remove('_active');
-    enuList.classList.remove('_active');
+        document.body.classList.remove('_lock');
+        menuBurger.classList.remove('_active');
+        enuList.classList.remove('_active');
 }
 
-// слайдер
+// slider three-page
 
 let offset = 0;
 const sliderLine = document.querySelector('.slider-line');
@@ -53,4 +53,28 @@ document.querySelector('.cloth-texture').addEventListener('click', function () {
 document.querySelector('.marble-texture').addEventListener('click', function () {
     sliderLine.style.left = -1500+ 'px';
 })
+
+// slider five-page
+
+const sliderMouse = document.querySelector('.slider-line__mouse');
+
+document.querySelector('.one').addEventListener('click', function () {
+    sliderMouse.style.left = 0;
+})
+document.querySelector('.two').addEventListener('click', function () {
+    sliderMouse.style.left = -330 + 'px';
+})
+document.querySelector('.three').addEventListener('click', function () {
+    sliderMouse.style.left = -660 + 'px';
+})
+document.querySelector('.four').addEventListener('click', function () {
+    sliderMouse.style.left = -990 + 'px';
+})
+document.querySelector('.five').addEventListener('click', function () {
+    sliderMouse.style.left = -1320 + 'px';
+})
+document.querySelector('.six').addEventListener('click', function () {
+    sliderMouse.style.left = -1650 + 'px';
+})
+
 

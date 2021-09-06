@@ -11,6 +11,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  width: 375px;
   margin: 0 auto;
 }
 
@@ -222,6 +223,10 @@ body._lock{
   line-height: 16px;
 }
 
+.slider__text{
+  margin: 0 33px 35px 34px;
+}
+
 .slider-nav{
   display: flex;
   justify-content: space-around;
@@ -263,22 +268,56 @@ body._lock{
   padding-bottom: 16px;
 }
 
-.five-page__text{
+.five-page__title{
   margin: 70px 71px 20px 72px;
 }
 
 .five-page__text{
-  margin: 0 33px 35px 34px;
-}
-
-.page-five__img{
-  margin: 0 22px 20px 23px;
+  
 }
 
 .five-page__slider{
+  margin: 35px 22px 20px 23px;
+}
+
+.slider-line__wrapper{
+  width: 330px;
+  height: 405px;
+  overflow: hidden;
+}
+
+.slider-line__mouse{
+  width: 1416.24px;
+  display: flex;
+  position: relative;
+  left: 0;
+  transition: all ease 1s;
+}
+
+.slider-line__mouse img{
+  padding-right: 58px;
+}
+
+.slider-line__mouse img:last-child{
+  padding-right: 0;
+}
+
+.five-page__nav{
+  display: flex;
+  justify-content: space-around;
   width: 165px;
+  margin: 20px 104px 60px 106px;
+}
+
+.circle-slider{
+  width: 15px;
   height: 15px;
-  margin: 0 104px 60px 106px;
+  border-radius: 50%;
+  background: #C4C4C4;
+}
+
+.circle-slider:hover{
+  background: #2F3132;
 }
 
 .five-page__box{
