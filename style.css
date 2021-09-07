@@ -42,17 +42,14 @@ body._lock{
 }
 
 .logo-white{
-    display: block;
-    padding: 25px 122px 148px 123px;
+    width: 130px;
+    margin: 25px 122px 148px 123px;
 
 }
 
 .logo-black{
+  width: 130px;
   margin: 25px 123px 94px 122px ;
-}
-
-.items{
-    display: none;
 }
 
 .first-page__body{
@@ -127,15 +124,11 @@ body._lock{
   transform: translate(0px, 0px);
 }
 
-.menu__list-items:focus{
-  list-style-type: none;
-  border-bottom:  2px solid #FFFFFF;
-}
 .menu__list-items a{
   text-decoration: none;
   color: #C4C4C4;
 }
-.menu__list-items a:focus{
+.menu__list-items a:hover{
   border-bottom:  2px solid #FFFFFF;
 }
 
@@ -147,12 +140,16 @@ body._lock{
   padding-bottom: 0;
 }
 
+/* second-page */
+
 .second-page{
   background: #EDEDED;
   height: 547px;
 }
 
 .bluetooth-icon{
+  width: 18px;
+  height: 34px;
   margin: 42px 178px 27px 179px;
 }
 
@@ -175,6 +172,7 @@ body._lock{
   color: #C4C4C4;
 }
 
+/* three-page */
 
 .three-page__title{
   margin: 70px 86px 20px 87px;
@@ -236,9 +234,18 @@ body._lock{
   margin: 0 33px 19.5px 34px;
 }
 
-.slider__text{
-  margin: 0 33px 63px 34px;
+.slider-nav img{
+  width: 30.5px;
+  height: 30.5px;
 }
+
+.slider-nav img:first-child,
+.slider-nav img:last-child{
+  width: 9.15px;
+  height: 18.3px;
+}
+
+/* four-page  */
 
 .four-page{
   background: #EDEDED;
@@ -268,12 +275,10 @@ body._lock{
   padding-bottom: 16px;
 }
 
+/* five-page */
+
 .five-page__title{
   margin: 70px 71px 20px 72px;
-}
-
-.five-page__text{
-  
 }
 
 .five-page__slider{
@@ -294,7 +299,12 @@ body._lock{
   transition: all ease 1s;
 }
 
+.slider-line__mouse img:first-child{
+  width: 330px;
+}
+
 .slider-line__mouse img{
+  width: 271.56px;
   padding-right: 58px;
 }
 
@@ -327,10 +337,15 @@ body._lock{
 .icon-apps{
   padding: 23px 22px 29px 20px ;
 }
+.icon-apps img{
+  width: 324px;
+}
 .box__text{
   padding: 0 26px 33px 34px;
   color: #FFFFFF;
 }
+
+/* six-page */
 
 .six-page__title{
  margin: 70px 34px 20px;
@@ -338,6 +353,10 @@ body._lock{
 
 .six-page__text{
   margin: 0 34px 20px;
+}
+
+.six-page__img{
+  width: 375px;
 }
 
 .footer{
@@ -350,4 +369,306 @@ body._lock{
   font-size: 7px;
   line-height: 8px;
   color: #C7C8C8;
+}
+
+@media (min-width: 768px) {
+  body{
+    width: 894px;
+  }
+
+  .title{
+    font-size: 40px;
+    line-height: 47px;
+  }
+
+  .text{
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .first-page__body{
+    background-image: url(img/screen894/MX-Master\ 1.png);
+    background-repeat: no-repeat;
+  }
+
+  .logo-black{
+    width: 240px;
+    margin: 54px 327px 159.7px;
+  } 
+  .logo-white{
+    width: 240px;
+    margin: 64px 327px 123.4px;
+  }
+
+  .menu__burger span,
+  .menu__burger::before,
+  .menu__burger::after {
+    left: 775px;
+    height: 8px;
+    width: 61px;
+}
+
+.menu__burger::before{
+  top: 54px;
+}
+.menu__burger::after{
+  top: 86px;
+}
+
+.menu__burger span {
+  top: 74px;
+}
+
+.menu__burger._active::before{
+  top: 79px;
+}
+
+.menu__burger._active::after{
+  top: 74px;
+}
+
+.first-page__text{
+  margin: 591px 155px 185px 154px;
+}
+
+.arrow-link{
+  margin: 76px 419px 80px 418px;
+}
+
+.title-item{
+  padding-bottom: 59px;
+}
+/* second-page */
+
+.second-page{
+  height: 990px;
+}
+
+.bluetooth-icon{
+  width: 24.45px;
+  height: 39.95px;
+  margin: 80px 436px 39.05px;
+}
+
+.second-page__text{
+  margin: 30px 77px 76px;
+}
+
+.box-mouse{
+  background-image: url(img/screen894/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 670px;
+}
+
+.text-large{
+  padding: 0 111px 421px 112px;
+  font-size: 150px;
+  line-height: 176px;
+}
+
+/* three-page */
+
+.three-page__title{
+  margin: 70px 245px 80px 246px;
+}
+
+.three-page__text{
+  margin: 0 77px 50px;
+}
+
+.three-page__grid{
+ display: flex;
+ justify-content: space-evenly;
+ margin-bottom: 50px;
+}
+
+.grid__row{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 300px;
+  height: 170px;
+  border: 1px solid #000000;
+}
+
+.slider-wrapper{
+  width: 894px;
+  height: 573px;
+  overflow: hidden;
+}
+
+.slider-line{
+  width: 1500px;
+  display: flex;
+  position: relative;
+  left: 0;
+  transition: all ease 1s;
+}
+
+.slider-line img{
+  width: 894px;
+}
+
+.slider__title{
+  margin: 50px 125px 23px 126px;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.slider__text{
+  margin: 0 77px 61px;
+}
+
+.slider-nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 404px;
+  height: 40px;
+  margin: 0 245px 22px;
+}
+
+.slider-nav img{
+  width: 40px;
+  height: 40px;
+}
+
+.slider-nav img:first-child,
+.slider-nav img:last-child{
+  width: 12px;
+  height: 24px;
+}
+
+/* five-page */
+
+.four-page__title{
+  padding: 70px 129px 30px;
+}
+
+.four-page__text{
+  margin: 0 65px 70px 64px;
+}
+
+.four-page__box{
+  background-image: url(img/screen894/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1.png);
+  background-repeat: no-repeat;
+  height: 624.21px;
+}
+
+.box__list{
+  display: grid;
+  grid-template-columns: 294px 293px 157px;
+  list-style-type: none;
+  padding: 0 67px 0 68px ;
+}
+
+.box__list li{
+  font-size: 20px;
+  line-height: 23px;
+  text-align: left;
+  padding-left: 22px;
+  border-right: 1px solid #494949;
+}
+.box__list li:first-child{
+  padding-left: 0;
+}
+
+.box__list li:last-child{
+  border-right: none;
+}
+
+/* five-page */
+
+.five-page__title{
+  margin: 69px 215x 30px;
+}
+
+.five-page__slider{
+  margin: 54px 198px 70px 199px;
+}
+
+.slider-line__wrapper{
+  width: 497px;
+  height: 610px;
+}
+
+.slider-line__mouse{
+  width: 1416.24px;
+}
+
+.slider-line__mouse img:first-child{
+  width: 497px;
+}
+
+.slider-line__mouse img{
+  width: 440px;
+  padding-right: 58px;
+}
+
+.slider-line__mouse img:last-child{
+  padding-right: 0;
+}
+
+.five-page__nav{
+  width: 275px;
+  margin: 53px 104px 0 106px;
+}
+
+.circle-slider{
+  width: 25px;
+  height: 25px;
+}
+
+.five-page__box{
+  width: 765px;
+  height: 195px;
+  margin: 0 65px 70px 64px;
+}
+
+.icon-apps{
+  padding: 38px 126px 25px 127px ;
+}
+
+.box__text{
+  font-size: 20px;
+  line-height: 23px;
+  height: 69px;
+  padding: 0 26px 29px 34px;
+}
+
+/* six-page */
+
+.six-page__title{
+  margin: 70px 65px 30px 67px;
+ }
+ 
+ .six-page__text{
+   margin: 0 65px 50px 67px;
+ }
+
+ .six-page__img{
+   width: 894px;
+ }
+
+ /* footer */
+ 
+ .footer{
+   height: 150px;
+ }
+ 
+ .footer__text{
+   padding: 47px 362px 71px;
+   font-size: 14px;
+   line-height: 16px;
+ }
+
+}
+
+@media (min-width: 1280px) {
+  
+}
+
+@media (min-width: 1920px) {
+  
 }
