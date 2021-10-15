@@ -13,14 +13,22 @@
 </head>
 <body>
     <section class="first-page">
-        <div class="container">
             <header class="header">
-                <img class="logo-black" src="img/Logo_Logitech_dark 1.png" alt="logo">
+                <picture>
+                    <source srcset="img/logo_dark-mobile.png" type="image/png" media="(max-width: 894px)">
+                    <source srcset="img/logo_dark-tablet.png" type="image/png" media="(max-width: 1280px)">
+                    <img class="logo-black" src="img/logo_dark-tablet.png" alt="logo-logitech">
+                </picture>
                 <div class="menu__burger">
                     <span></span>
                 </div>
                 <nav class="menu__list">
-                    <img class="logo-white" src="img/Logo_Logitech 1.png" alt="logo">
+                    <picture>
+                        <source srcset="img/logo_white-mobile.png" media="(max-width: 894px)">
+                        <source srcset="img/logo_white-tablet.png" media="(max-width: 1280px)">
+                        <source srcset="img/logo_white-desktop.png" media="(max-width: 1920px)">
+                        <img class="logo-white" src="img/logo_white-mobile.png" alt="logo-logitech">
+                    </picture>
                     <ul class="menu__list-items">
                         <li class="title title-item"><a href="">БЕЗ ПРОВОДОВ</a> </li>
                         <li class="title title-item"><a href="">А ЛЮБЫМ СТОЛОМ</a> </li>
@@ -42,15 +50,22 @@
             <div class="first-page__body">
                 <h2 class="title first-page__title">РАБОТАЙТЕ ПРОДУКТИВНЕЕ</h2>
                 <p class="text first-page__text">Создана для эффективной работы, программирования и творчества</p>
-                <a href="#second" class="link">
-                    <img class="arrow-link" src="img/arrow.png" alt="arrow">
-                </a>
-            </div>  
-        </div>
-            
+                <picture>
+                    <source srcset="img/arrow-mobile.png" media="(max-width: 894px)">
+                    <source srcset="img/arrow-tablet.png" media="(max-width: 1920px)">
+                    <img class="arrow-link" src="img/arrow-tablet.png" alt="arrow">
+                </picture>
+                <!-- <a href="#second" class="link">
+                    <img class="arrow-link" src="img/arrow-tablet.png" alt="arrow">
+                </a> -->
+            </div>       
     </section>
     <section class="second-page" id="second">
-            <img src="img/icon-bluetooth.png" alt="bluetooth" class="bluetooth-icon">
+        <picture>
+            <source srcset="img/icon_bluetooth-mobile.png" media="(max-width: 894px)">
+            <source srcset="img/icon_bluetooth-mobile.png" media="(max-width: 1280px)">
+            <img class="bluetooth-icon" src="img/icon_bluetooth-desktop.png" alt="bluetooth">
+        </picture> 
             <h2 class="title">БЕЗ ПРОВОДОВ</h2>
             <p class="text second-page__text">Беспроводная мышь MX Master 3 работает без проводов до нескольких месяцев. Вы закроете приоритетные задачи прежде, чем понадобится подзарядка.</p>
             <div class="box-mouse">
@@ -74,11 +89,36 @@
             <div class="three-page__slider">
                 <div class="slider-wrapper">
                     <div class="slider-line">
-                        <img src="img/wood.png" alt="wood">
-                        <img src="img/glass.png" alt="glass">
-                        <img src="img/linoleum.png" alt="linoleum">
-                        <img src="img/cloth.png" alt="cloth">
-                        <img src="img/marble.png" alt="marble">
+                        <picture>
+                            <source srcset="img/wood-mobile.png" media="(max-width: 894px)">
+                            <source srcset="img/wood-tablet.png" media="(max-width: 1280px)">
+                            <source srcset="img/wood-desktop.png" media="(max-width: 1920px)">
+                            <img src="img/wood-desktop.png" alt="wood">
+                        </picture>
+                        <picture>
+                            <source srcset="img/glass-mobile.png" media="(max-width: 894px)">
+                            <source srcset="img/glass-tablet.png" media="(max-width: 1280px)">
+                            <source srcset="img/glass-desktop.png" media="(max-width: 1920px)">
+                            <img src="img/glass-desktop.png" alt="wood">
+                        </picture>
+                        <picture>
+                            <source srcset="img/linoleum-mobile.png" media="(max-width: 894px)">
+                            <source srcset="img/linoleum-tablet.png" media="(max-width: 1280px)">
+                            <source srcset="img/linoleum-desktop.png" media="(max-width: 1920px)">
+                            <img src="img/linoleum-desktop.png" alt="wood">
+                        </picture>
+                        <picture>
+                            <source srcset="img/cloth-mobile.png" media="(max-width: 894px)">
+                            <source srcset="img/cloth-tablet.png" media="(max-width: 1280px)">
+                            <source srcset="img/cloth-desktop.png" media="(max-width: 1920px)">
+                            <img src="img/cloth-desktop.png" alt="wood">
+                        </picture>
+                        <picture>
+                            <source srcset="img/marble-mobile.png" media="(max-width: 894px)">
+                            <source srcset="img/marble-tablet.png" media="(max-width: 1280px)">
+                            <source srcset="img/marble-desktop.png" media="(max-width: 1920px)">
+                            <img src="img/marble-desktop.png" alt="wood">
+                        </picture>
                     </div>
                 </div>
                 <h5 class="title slider__title">Переключите поверхность</h5>
@@ -118,12 +158,41 @@
             <div class="five-page__slider">
                 <div class="slider-line__wrapper">
                     <div class="slider-line__mouse">
-                        <img src="img/01.png" alt="mouse">
-                        <img src="img/02.png" alt="mouse">
-                        <img src="img/03.png" alt="mouse">
-                        <img src="img/04.png" alt="mouse">
-                        <img src="img/05.png" alt="mouse">
-                        <img src="img/06.png" alt="mouse"> 
+                        <picture>
+                            <source srcset="img/mouse_one-mobile.jpg" media="(max-width: 894px)">
+                            <source srcset="img/mouse_one-tablet.jpg" media="(max-width: 1280px)">
+                            <img src="img/mouse_one-tablet.jpg" alt="mouse">
+                        </picture>
+                        <picture>
+                            <source srcset="img/mouse_one-mobile.jpg" media="(max-width: 894px)">
+                            <source srcset="img/mouse_one-tablet.jpg" media="(max-width: 1280px)">
+                            <img src="img/mouse_one-tablet.jpg" alt="mouse">
+                        </picture>
+                        <picture>
+                            <source srcset="img/mouse_two-mobile.jpg" media="(max-width: 894px)">
+                            <source srcset="img/mouse_two-tablet.jpg" media="(max-width: 1280px)">
+                            <img src="img/mouse_two-tablet.jpg" alt="mouse">
+                        </picture>
+                        <picture>
+                            <source srcset="img/mouse_three-mobile.jpg" media="(max-width: 894px)">
+                            <source srcset="img/mouse_three-tablet.jpg" media="(max-width: 1280px)">
+                            <img src="img/mouse_three-tablet.jpg" alt="mouse">
+                        </picture>
+                        <picture>
+                            <source srcset="img/mouse_four-mobile.jpg" media="(max-width: 894px)">
+                            <source srcset="img/mouse_four-tablet.jpg" media="(max-width: 1280px)">
+                            <img src="img/mouse_four-tablet.jpg" alt="mouse">
+                        </picture>
+                        <picture>
+                            <source srcset="img/mouse_five-mobile.jpg" media="(max-width: 894px)">
+                            <source srcset="img/mouse_five-tablet.jpg" media="(max-width: 1280px)">
+                            <img src="img/mouse_five-tablet.jpg" alt="mouse">
+                        </picture>
+                        <picture>
+                            <source srcset="img/mouse_six-mobile.jpg" media="(max-width: 894px)">
+                            <source srcset="img/mouse_six-tablet.jpg" media="(max-width: 1280px)">
+                            <img src="img/mouse_six-tablet.jpg" alt="mouse">
+                        </picture>
                     </div>
                 </div>
                 <div class="five-page__nav">
@@ -154,9 +223,13 @@
                 <p class="text six-page__text">Дизайн мыши MX Master 3 разработан так, чтобы с точностью повторять форму вашей ладони. Но не менее важны колесико прокрутки для большого пальца
                     и расположение кнопок жестов, с которыми вы будете творить уверенно как никогда.</p>
             </div>
-            
-            <img class="six-page__img" src="img/image 1.jpg" alt="mouse">
-            <img class="six-page__img-two" src="img/screen1280/image 1.png" alt="mouse">
+            <picture>
+                <source srcset="img/first-mobile.jpg" media="(max-width: 894px)">
+                <source srcset="img/first-tablet.jpg" media="(max-width: 1280px)">
+                <source srcset="img/first-desktop.jpg" media="(max-width: 1920px)">
+                <source srcset="img/first-desktop_two.jpg" media="(min-width: 1920px)">
+                <img src="img/first-desktop.jpg" alt="mouse">
+            </picture>
         </div>
         <div class="six-page__wrapper">
             <div class="wrapper-text text-two">
@@ -165,9 +238,13 @@
                     со скоростью 1000 строк за 1 секунду.
                     С точностью до пикселя. Бесшумно..</p>
             </div>
-                
-                <img class="six-page__img" src="img/image 2.jpg" alt="mouse">
-                <img class="six-page__img-two" src="img/screen1280/image 2.png" alt="mouse">
+            <picture>
+                <source srcset="img/second-mobile.jpg" media="(max-width: 894px)">
+                <source srcset="img/second-tablet.jpg" media="(max-width: 1280px)">
+                <source srcset="img/second-desktop.jpg" media="(max-width: 1920px)">
+                <source srcset="img/second-desktop_two.jpg" media="(min-width: 1920px)">
+                <img src="img/second-desktop.jpg" alt="mouse">
+            </picture>
         </div>
             
     </section>

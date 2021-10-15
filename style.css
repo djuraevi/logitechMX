@@ -41,6 +41,10 @@ body._lock{
   background: #E0E1E2;
 }
 
+.header{
+  position: relative;
+}
+
 .logo-white{
     width: 130px;
     margin: 25px 122px 148px 123px;
@@ -53,8 +57,7 @@ body._lock{
 }
 
 .first-page__body{
-  background-image: url(img/MX-Master\ 1.png);
-  background-repeat: no-repeat;
+  background: url(img/MX-Master-mobile.png) no-repeat;
 }
 
 .first-page__text{
@@ -152,8 +155,6 @@ body._lock{
 }
 
 .bluetooth-icon{
-  width: 18px;
-  height: 34px;
   margin: 42px 178px 27px 179px;
 }
 
@@ -162,9 +163,7 @@ body._lock{
 }
 
 .box-mouse{
-  background-image: url(img/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1.png);
-  background-repeat: no-repeat;
-  background-position: bottom;
+  background: url(img/background_mouse-mobile.png) no-repeat bottom;
 }
 
 .text-large{
@@ -264,9 +263,7 @@ body._lock{
 }
 
 .four-page__box{
-  background-image: url(img/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1.png);
-  background-repeat: no-repeat;
-
+  background: url(img/Lifestyle-mobile.png) no-repeat;
 }
 
 .box__list{
@@ -359,14 +356,6 @@ body._lock{
   margin: 0 34px 20px;
 }
 
-.six-page__img{
-  width: 375px;
-}
-
-.six-page__img-two{
-  display: none;
-}
-
 .footer{
   height: 75px;
   background: #2F3132;
@@ -395,8 +384,7 @@ body._lock{
   }
 
   .first-page__body{
-    background-image: url(img/screen894/MX-Master\ 1.png);
-    background-repeat: no-repeat;
+    background-image: url(img/MX-Master-tablet.png);
   }
 
   .menu__list-large{
@@ -457,8 +445,6 @@ body._lock{
 }
 
 .bluetooth-icon{
-  width: 24.45px;
-  height: 39.95px;
   margin: 80px 436px 39.05px;
 }
 
@@ -467,9 +453,7 @@ body._lock{
 }
 
 .box-mouse{
-  background-image: url(img/screen894/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1.png);
-  background-repeat: no-repeat;
-  background-position: bottom;
+  background-image: url(img/background_mouse-tablet.png);
 }
 
 .text-large{
@@ -551,7 +535,7 @@ body._lock{
   height: 24px;
 }
 
-/* five-page */
+/* four-page */
 
 .four-page__title{
   padding: 70px 129px 30px;
@@ -562,8 +546,7 @@ body._lock{
 }
 
 .four-page__box{
-  background-image: url(img/screen894/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1.png);
-  background-repeat: no-repeat;
+  background-image: url(img/Lifestyle-tablet.png);
   height: 624.21px;
 }
 
@@ -659,10 +642,6 @@ body._lock{
    margin: 0 65px 50px 67px;
  }
 
- .six-page__img{
-   width: 894px;
- }
-
  /* footer */
  
  .footer{
@@ -752,8 +731,7 @@ body._lock{
   }
 
   .first-page__body{
-    background-image: url(img/screen1280/MX-Master\ 1.png);
-    background-repeat: no-repeat;
+    background-image: url(img/MX-Master-desktop.png);
   }
   
   .first-page__title{
@@ -795,8 +773,7 @@ body._lock{
 }
 
 .box-mouse{
-  background-image: url(img/screen1280/left.png), url(img/screen1280/right.png);
-  background-repeat: no-repeat;
+  background-image: url(img/background_mouse-desktop-left.png), url(img/background_mouse-desktop-right.png);
   background-position: left bottom, right bottom;
 }
 
@@ -895,9 +872,7 @@ body._lock{
 }
 
 .four-page__box{
-  background-image: url(img/screen1280/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1.png);
-  background-repeat: no-repeat;
-  background-position: bottom;
+  background: url(img/Lifestyle-desktop.png) bottom;
   height: 700px;
 }
 
@@ -938,9 +913,7 @@ body._lock{
 }
 
 .five-page__specifications{
-  background-image: url(img/screen1280/specifications.png);
-  background-repeat: no-repeat;
-  background-position: top;
+  background: url(img/specifications.png) no-repeat top;
   height: 698px;
 }
 
@@ -989,12 +962,6 @@ body._lock{
    margin: 0 32px 162px 208px;
  }
 
- .six-page__img{
-   display: none;
- }
- .six-page__img-two{
-   display: block;
- }
  /* footer  */
  .footer{
   display: flex;
@@ -1057,7 +1024,7 @@ body._lock{
   }
 
   .first-page__body{
-    background: url(img/screen1280/MX-Master\ 1.png) no-repeat center top;
+    background-position: center top;
   }
     
   .arrow-link{
@@ -1079,8 +1046,6 @@ body._lock{
 }
 
 .box-mouse{
-  background-image: url(img/screen1280/left.png), url(img/screen1280/right.png);
-  background-repeat: no-repeat;
   background-position: 23% 100%, 73% 100%;
 }
 
@@ -1130,7 +1095,7 @@ body._lock{
 }
 
 .four-page__box{
-  background: url(img/screen1920/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1.png) no-repeat bottom;
+  background-image: url(img/Lifestyle-desktop1920.png);
   height: 930px;
 }
 
