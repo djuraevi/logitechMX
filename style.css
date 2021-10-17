@@ -47,7 +47,8 @@ body._lock{
 
 .logo-white{
     width: 130px;
-    margin: 25px 122px 148px 123px;
+    display: block;
+    margin: 25px auto 148px auto;
 
 }
 
@@ -65,13 +66,13 @@ body._lock{
 }
 
 .arrow-link{
-  margin: 40px 168px 48px;
+  margin: 40px 167px 48px 168px;
 }
 
 .menu__burger span,
 .menu__burger::before,
 .menu__burger::after {
-  z-index: 2;
+  z-index: 3;
   left: 316px;
   position: absolute;
   height: 4px;
@@ -126,16 +127,18 @@ body._lock{
   background-color: rgba(0, 0, 0, 0.9);
   transition: all 0.3s ease 0s;
   overflow: auto;
+  z-index: 2;
 }
 .menu__list._active{
   transform: translate(0px, 0px);
 }
 
-.menu__list-items a{
+.title-item a{
   text-decoration: none;
   color: #C4C4C4;
 }
-.menu__list-items a:hover{
+.title-item a:hover{
+  color: #FFFFFF;
   border-bottom:  2px solid #FFFFFF;
 }
 
@@ -325,11 +328,11 @@ body._lock{
 }
 
 .icon-apps{
+  display: flex;
+  justify-content: space-evenly;
   padding: 23px 22px 29px 20px ;
 }
-.icon-apps img{
-  width: 324px;
-}
+
 .box__text{
   padding: 0 26px 33px 34px;
   color: #FFFFFF;
@@ -337,11 +340,11 @@ body._lock{
 
 /* six-page */
 
-.six-page__title{
+.six-page__title, .six-page__title-two {
  margin: 70px 34px 20px;
 }
 
-.six-page__text{
+.six-page__text, .six-page__text-two{
   margin: 0 34px 20px;
 }
 
@@ -386,7 +389,8 @@ body._lock{
   } 
   .logo-white{
     width: 240px;
-    margin: 64px 327px 123.4px;
+    display: block;
+    margin: 64px auto 123.4px auto;
   }
 
   .menu__burger span,
@@ -588,10 +592,8 @@ body._lock{
 }
 
 .five-page__box{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0 65px 70px 64px;
+  width: 765px;
+  margin: 0 auto;
 }
 
 .icon-apps{
@@ -601,17 +603,15 @@ body._lock{
 .box__text{
   font-size: 20px;
   line-height: 23px;
-  height: 69px;
-  margin: 0 26px 29px 34px;
 }
 
 /* six-page */
 
-.six-page__title{
+.six-page__title, .six-page__title-two{
   margin: 70px 65px 30px 67px;
  }
  
- .six-page__text{
+ .six-page__text, .six-page__text-two{
    margin: 0 65px 50px 67px;
  }
 
@@ -882,17 +882,15 @@ body._lock{
 }
 
 .five-page__box{
-  margin: 0 243px 71px 288px;
+  margin: 0 auto 71px auto;
 }
 
 .icon-apps{
-  display: flex;
-  justify-content: space-around;
   padding: 38px 117px 25px 120px;
 }
 
 .box__text{
-  padding: 0;
+  padding: 0 40px 29px;
 }
 
 /* six-page */
@@ -1078,7 +1076,7 @@ body._lock{
 }
 
 .five-page__box{
-  margin: 0 587px 100px 584px;
+  margin: 0 auto 100px auto;
 }
 
 /* six-page */

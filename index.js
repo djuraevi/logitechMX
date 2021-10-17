@@ -14,7 +14,34 @@ if(menuBurger){
 if (menuBurger.classList.contains('_active')){
         document.body.classList.remove('_lock');
         menuBurger.classList.remove('_active');
-        enuList.classList.remove('_active');
+        menuList.classList.remove('_active');
+}
+
+const menuLinks = document.querySelectorAll('.menu__link[data-goto]');
+if (menuLinks.length > 0) {
+    menuLinks.forEach(menuLink => {
+        menuLink.addEventListener("click", onMenuLinkClick);
+    });
+
+    function onMenuLinkClick(e) {
+        const menuLink = e.target;
+        if(menuLink.dataset.goto && document.querySelector(menuLink.dataset.goto)) {
+            const gotoBlock = document.querySelector(menuLink.dataset.goto);
+            const gotoBlockValue = gotoBlock.getBoundingClientRect().top;
+
+            if (menuBurger.classList.contains('_active')) {
+                document.body.classList.remove('_lock');
+                menuBurger.classList.remove('_active');
+                menuList.classList.remove('_active');
+            }
+
+            window.scrollTo({
+                top: gotoBlockValue,
+                behavior: "smooth"
+            });
+            e.preventDefault();
+        }
+    }
 }
 
                 // slider three-page     
@@ -52,7 +79,6 @@ document.querySelector('.left').addEventListener('click', function () {
     }
     sliderLine.style.left = - offset + 'px';
 })
-
 document.querySelector('.wood-texture').addEventListener('click', function () {
     sliderLine.style.left = 0;
 })

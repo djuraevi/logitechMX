@@ -9,7 +9,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">  
-    <!-- <link rel="stylesheet" href="normalize.css">  -->
 </head>
 <body>
     <section class="first-page">
@@ -30,20 +29,20 @@
                         <img class="logo-white" src="img/logo_white-mobile.png" alt="logo-logitech">
                     </picture>
                     <ul class="menu__list-items">
-                        <li class="title title-item"><a href="">БЕЗ ПРОВОДОВ</a> </li>
-                        <li class="title title-item"><a href="">А ЛЮБЫМ СТОЛОМ</a> </li>
-                        <li class="title title-item"><a href="">ОДНОВРЕМЕННО С НЕСКОЛЬКИХ УСТРОЙСТВ</a> </li>
-                        <li class="title title-item"><a href="">С ИНДИВИДУАЛЬНЫМИ НАСТРОЙКАМИ</a> </li>
-                        <li class="title title-item"><a href="">БЫСТРЕЕ,ЧЕМ КОГДА-ЛИБО</a> </li>
-                        <li class="title title-item"><a href="">КОМФОРТНО. ЭРГОНОМИЧНО. ИНТУИТИВНО.</a> </li>
+                        <li class="title title-item"><a class="menu__link" data-goto=".second-page" href="#">БЕЗ ПРОВОДОВ</a> </li>
+                        <li class="title title-item"><a class="menu__link" data-goto=".three-page" href="#">ЗА ЛЮБЫМ СТОЛОМ</a> </li>
+                        <li class="title title-item"><a class="menu__link" data-goto=".four-page" href="#">ОДНОВРЕМЕННО С НЕСКОЛЬКИХ УСТРОЙСТВ</a> </li>
+                        <li class="title title-item"><a class="menu__link" data-goto=".five-page" href="#">С ИНДИВИДУАЛЬНЫМИ НАСТРОЙКАМИ</a> </li>
+                        <li class="title title-item"><a class="menu__link" data-goto=".two-box" href="#">БЫСТРЕЕ,ЧЕМ КОГДА-ЛИБО</a> </li>
+                        <li class="title title-item"><a class="menu__link" data-goto=".one-box" href="#">КОМФОРТНО. ЭРГОНОМИЧНО. ИНТУИТИВНО.</a> </li>
                     </ul>
                     <ul class="menu__list-large">
-                        <li class="text text-item__large"><a href="">РАБОТАЙТЕ БЕЗ ПРОВОДОВ</a> </li>
-                        <li class="text text-item__large"><a href="">ГДЕ УГОДНО</a> </li>
-                        <li class="text text-item__large"><a href="">С КОМФОРТОМ</a> </li>
-                        <li class="text text-item__large"><a href="">С РАЗНЫХ УСТРОЙСТВ</a> </li>
-                        <li class="text text-item__large"><a href="">В ЛЮБОЕ ВРЕМЯ</a> </li>
-                        <li class="text text-item__large"><a href="">И ЕЩЕ БЫСТРЕЕ</a> </li>
+                        <li class="text text-item__large"><a class="menu__link" data-goto=".second-page" href="#">РАБОТАЙТЕ БЕЗ ПРОВОДОВ</a> </li>
+                        <li class="text text-item__large"><a class="menu__link" data-goto=".three-page" href="#">ГДЕ УГОДНО</a> </li>
+                        <li class="text text-item__large"><a class="menu__link" data-goto=".five-page" href="#">С КОМФОРТОМ</a> </li>
+                        <li class="text text-item__large"><a class="menu__link" data-goto=".four-page" href="#">С РАЗНЫХ УСТРОЙСТВ</a> </li>
+                        <li class="text text-item__large"><a class="menu__link" data-goto=".one-box" href="#">В ЛЮБОЕ ВРЕМЯ</a> </li>
+                        <li class="text text-item__large"><a class="menu__link" data-goto=".two-box" href="#">И ЕЩЕ БЫСТРЕЕ</a> </li>
                     </ul>
                 </nav>             
             </header>
@@ -53,11 +52,8 @@
                 <picture>
                     <source srcset="img/arrow-mobile.png" media="(max-width: 894px)">
                     <source srcset="img/arrow-tablet.png" media="(max-width: 1920px)">
-                    <img class="arrow-link" src="img/arrow-tablet.png" alt="arrow">
+                    <a  href="#second"><img class="arrow-link" src="img/arrow-tablet.png" alt="arrow"></a>
                 </picture>
-                <!-- <a href="#second" class="link">
-                    <img class="arrow-link" src="img/arrow-tablet.png" alt="arrow">
-                </a> -->
             </div>       
     </section>
     <section class="second-page" id="second">
@@ -203,7 +199,42 @@
             </div>   
             <div class="five-page__box">
                 <div class="icon-apps">
-                    <img src="img/icons-apps.png" alt="icon">
+                    <picture>
+                        <source srcset="img/photoshop-small.png" media="(max-width: 894px)">
+                        <source srcset="img/photoshop-large.png" media="(max-width: 1280px)">
+                        <img src="img/photoshop-large.png" alt="photoshop">
+                    </picture>
+                    <picture>
+                        <source srcset="img/pr-small.png" media="(max-width: 894px)">
+                        <source srcset="img/pr-large.png" media="(max-width: 1280px)">
+                        <img src="img/pr-large.png" alt="premiere">
+                    </picture>
+                    <picture>
+                        <source srcset="img/internet-small.png" media="(max-width: 894px)">
+                        <source srcset="img/internet-large.png" media="(max-width: 1280px)">
+                        <img src="img/internet-large.png" alt="internet">
+                    </picture>
+                    <picture>
+                        <source srcset="img/word-small.png" media="(max-width: 894px)">
+                        <source srcset="img/word-large.png" media="(max-width: 1280px)">
+                        <img src="img/word-large.png" alt="word">
+                    </picture>
+                    <picture>
+                        <source srcset="img/powerpoint-small.png" media="(max-width: 894px)">
+                        <source srcset="img/powerpoint-large.png" media="(max-width: 1280px)">
+                        <img src="img/powerpoint-large.png" alt="powerpoint">
+                    </picture>
+                    <picture>
+                        <source srcset="img/excel-small.png" media="(max-width: 894px)">
+                        <source srcset="img/excel-large.png" media="(max-width: 1280px)">
+                        <img src="img/excel-large.png" alt="excel">
+                    </picture>
+                    <picture>
+                        <source srcset="img/movie-small.png" media="(max-width: 894px)">
+                        <source srcset="img/movie-large.png" media="(max-width: 1280px)">
+                        <img src="img/movie-large.png" alt="movie">
+                    </picture>
+                    <!-- <img src="img/icons-apps.png" alt="icon"> -->
                 </div>
                 <p class="text box__text">Начните работать продуктивнее с момента покупки — устройство
                     предварительно оптимизировано под популярные приложения
@@ -226,7 +257,7 @@
                 <img src="img/first-desktop.jpg" alt="mouse">
             </picture>
         </div>
-        <div class="six-page__wrapper">
+        <div class="six-page__wrapper two-box">
             <div class="wrapper-text text-two">
                 <h2 class="title six-page__title-two">БЫСТРЕЕ, <br> ЧЕМ КОГДА-ЛИБО</h2>
                 <p class="text six-page__text-two">Компьютерная мышь MX Master 3 предлагает ультимативный механизм прокрутки
